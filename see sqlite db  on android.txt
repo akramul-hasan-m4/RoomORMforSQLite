@@ -1,0 +1,17 @@
+1. got to tools/android/android device monitor
+2. you can see a emulator info left side and reght you can see File explorer
+3. click data from file explorer then you find another data option click here.
+4. serach your pakage name and click on it rhn you see your database.
+
+
+Note:
+
+if you unable to open data that means you need root permission.
+
+
+For root permission:
+
+1. open cmd as admin
+2. cd C:\Users\DOLPHIN\AppData\Local\Android\Sdk\platform-tools (where your plat form tools have)
+3.adb root (press enter).
+4.Then you get root permission

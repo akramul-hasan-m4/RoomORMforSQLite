@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Room ORM for SQLite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="save">Add Movie</string>
+    <string name="showOne">Show One</string>
+    <string name="delete">Delete One</string>
+    <string name="deletemulti">Delete All</string>
+    <string name="showAll">Show All</string>
+
+    <string name="movie_input">Input Movie Name</string>
+    <string name="movie_search">Search by Movie Name</string>
+    <string name="save_movie">Save</string>
+    <string name="search_btn">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
