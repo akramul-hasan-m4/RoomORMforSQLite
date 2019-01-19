@@ -15,17 +15,23 @@ import room.orm.sqlite.com.roomormforsqlite.model.Movies;
 public class MovieService {
 
     public void saveMovie(Movies movie){
-        Log.d("saveerr", "========="+movie.toString());
         try {
            MainActivity.movieDatabase.daoAccess().insertOnlySingleMovie (movie);
         }catch (Exception e){
-           Log.d("err", "========="+e.getMessage());
+           Log.d("err", e.getMessage());
         }
-
     }
 
     public Movies fetchByMovieName(String movieName){
         Movies movie = MainActivity.movieDatabase.daoAccess().fetchOneMoviesbyMovieName(movieName);
+        if (movie == null){
+            return null;
+        }
+        Log.d("movie", movie.getMovieName());
+        return  movie;
+    }
+    public Movies fetchOneMoviesbyMovieId(Integer movieId){
+        Movies movie = MainActivity.movieDatabase.daoAccess().fetchOneMoviesbyMovieId(movieId);
         if (movie == null){
             return null;
         }
@@ -40,4 +46,11 @@ public class MovieService {
         }
         return new ArrayList<>();
     }
+
+    public void deleteMovie(Movies movie){
+        if (movie != null){
+            MainActivity.movieDatabase.daoAccess().deleteMovie(movie);
+        }
+    }
+
 }

@@ -1,0 +1,4 @@
+
+Ksquid:S1068&"/Remove this unused "movieDialog" private field.(ληχώÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck'"RMake movies a static final constant or non-public and provide accessors if needed.(ÿΐ΄όÿÿÿÿ
+Usquid:S1155t">Use isEmpty() to check whether the collection is empty or not.(†–²μ

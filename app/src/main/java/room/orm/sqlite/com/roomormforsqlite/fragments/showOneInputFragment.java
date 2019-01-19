@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import room.orm.sqlite.com.roomormforsqlite.R;
@@ -50,7 +49,7 @@ public class showOneInputFragment extends Fragment implements View.OnClickListen
                     movieDialog.show(getFragmentManager(), "dialog test");
                     searchInput.setText("");
                 }else {
-                    Toast.makeText(getActivity(), "No found by this "+mName, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "No item found by : "+mName, Toast.LENGTH_SHORT).show();
                 }
 
             }catch (Exception e){

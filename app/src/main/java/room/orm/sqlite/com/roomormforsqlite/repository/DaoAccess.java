@@ -18,6 +18,7 @@ import room.orm.sqlite.com.roomormforsqlite.model.Movies;
 public interface DaoAccess {
 
     public static final String QUERY_BY_MOVIE_NAME ="SELECT * FROM Movies WHERE movie_name = :movieName";
+    public static final String QUERY_BY_MOVIE_Id ="SELECT * FROM Movies WHERE movieId = :movieId";
     public static final String QUERY_ALL ="SELECT * FROM Movies";
 
     @Insert
@@ -28,6 +29,9 @@ public interface DaoAccess {
 
     @Query(QUERY_BY_MOVIE_NAME)
     Movies fetchOneMoviesbyMovieName(String movieName);
+
+    @Query(QUERY_BY_MOVIE_Id)
+    Movies fetchOneMoviesbyMovieId(Integer movieId);
 
     @Query(QUERY_ALL)
     List<Movies> fetchAllMovies();

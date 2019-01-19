@@ -49,7 +49,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
             MainActivity.fragmentManager.beginTransaction().replace(R.id.main_fragment, new showOneInputFragment()).addToBackStack(null).commit();
         }
         else if (v.getId() == R.id.getAll){
-           // MainActivity.fragmentManager.beginTransaction().replace(R.id.main_fragment, new showOneInputFragment()).addToBackStack(null).commit();
+            MainActivity.fragmentManager.beginTransaction().replace(R.id.main_fragment, new GetAllFragment()).addToBackStack(null).commit();
         }
     }
 }

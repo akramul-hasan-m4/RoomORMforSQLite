@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/road"
+    android:padding="20dp"
+    tools:context="room.orm.sqlite.com.roomormforsqlite.fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/saveId"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/save"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/getone"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonshape"
+        android:layout_height="wrap_content"
+        android:text="@string/showOne"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/getAll"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="@string/showAll"
+        />
+
+</LinearLayout>

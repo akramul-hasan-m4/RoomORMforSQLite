@@ -1,0 +1,8 @@
+
+Lsquid:S1444"5Make this "public static fragmentManager" field final(§˜¤™
+gsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(œƒƒ©ùÿÿÿÿ
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ÎÆ€óýÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"YMake movieDatabase a static final constant or non-public and provide accessors if needed.(Çá„ð
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(·Ë‚Ýüÿÿÿÿ
+Jsquid:S1444"3Make this "public static movieDatabase" field final(Çá„ð
+‰"squid:ClassVariableVisibilityCheck"[Make fragmentManager a static final constant or non-public and provide accessors if needed.(§˜¤™
